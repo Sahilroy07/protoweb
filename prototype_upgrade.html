@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="jquery-3.3.1.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$("#secondpara").click(function(){
+				$("#thirdpara").slideToggle("fast");
+			});
+		});
+		$(document).ready(function(){
+			$("#fourthpara").click(function(){
+				$("#fifthpara").slideToggle("fast");
+			});
+		});
+		$(document).ready(function(){
+			$("#b3").click(function(){
+				alert("Already at Socials page");
+			});
+		});
+	</script>
+<style>
+    ul{
+		list-style-type:none;
+		margin:0;
+		padding:0;
+		overflow:hidden;
+		background-color:black;
+	}
+	li{
+		float:left;
+	}
+	li a{
+		display:block;
+		color:whitesmoke;
+		padding:12px 15px;
+	}
+	li a:hover{
+		background-color:grey;
+    }
+    h3{
+        background-color: black;
+        color: white;
+    }
+	#firstpara{
+		letter-spacing: 2px;
+		text-indent: 100px;	
+	}
+	#secondpara, #thirdpara, #fourthpara, #fifthpara{
+		padding: 10px;
+		text-align: left;
+		background-color: yellow;
+		border: solid 5px black;
+		font-style: italic;
+		color: black;
+	}
+	#thirdpara, #fifthpara{
+		padding: 60px;
+		display: none;
+		text-align: center;
+		font-style: italic;
+		letter-spacing: 2px;
+		text-indent: 100px;
+	} 
+</style>
+    <title>Socials page</title>
+</head>
+<body>
+    <h1>PROTOWEB<sup>&#127760;</sup></h1>
+
+    <ul>
+		<li id="b1"><a href="index.html">Home</a></li>
+		<li id="b2"><a href="prototype_about.html">About</a></li>
+        <li id="b3"><a href="prototype_upgrade.html">Socials</a></li>
+		<li id="b4"><a href="prototype_my_eshop.html">Eshop</a></li>
+	</ul>
+
+    <h3><b>My social life&#128270; -</b></h3>
+
+	<p id="firstpara">I have many friends, school friends, college friends, tution friends
+		but I hangout with just a few ones i.e with 7 of my school friends only.
+		so now I am going to introduce to that friend circle who kinda helped me 
+		during my project website making.</p>
+
+	<p id="secondpara"><b>ABSHIEK BHATTA</b></p>
+	<p id="thirdpara">We both were classmates since our nursery and we 
+		ended our school life together at the same section also. He is 
+		very supportive and funny he is very good listner and has a good 
+		taste in tech.That's not it our friendship was not ended at school
+		it began a new phase at our college where we both are currently
+		studying at. He was the one who gave me the option to join ITER 
+		otherwise I was searching for a govt. college. We both love computer and 
+		codes. He till this day is very close to me and I like to share my stories 
+		with him.<br>
+		<img src="bhatta.jpg" height="300" width="300">
+	</p>
+
+	<p id="fourthpara"><b>SAI NARAYAN PANDA</b></p>
+	<p id="fifthpara">He is anothe school friend whom I met at a tution when I was studying
+		in class 6<sup>th</sup>. we became very good friends in tution and later started hanging
+		out at school during lunch hours. He was also with me till the end of school life and was
+		with me in my section from 9<sup>th</sup> onwards. Luckily he ended up at the very same
+		college where me and bhatta are studying...I feel like a magnet and these people are
+		not going to leave me in my future also. He is also caring and kind but rather than 
+		wasting braincells in books and codes he wastes it in god only knows where. But 
+		after all he is a valuable friend who doesn't need any verification from social media.<br>
+		<img src="sai.jpg" height="300" width="300">
+	</p>  
+</body>
+</html>

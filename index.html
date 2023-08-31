@@ -10,23 +10,25 @@
 		});
 	</script>
 <style>
-	ul{
-		list-style-type:none;
-		margin:0;
-		padding:0;
+	#nav{
 		overflow:hidden;
 		background-color:black;
 	}
-	li{
+	#nav a{
 		float:left;
-	}
-	li a{
-		display:block;
+		text-align: center;
 		color:whitesmoke;
 		padding:12px 15px;
+		text-decoration: none;
+		font-size: 17px;
 	}
-	li a:hover{
+	#nav a:hover{
 		background-color:grey;
+		color: black;
+	}
+	#nav a.active{
+		background-color: grey;
+		color: white;
 	}
 	#firstpara{
 		background-color: yellow;
@@ -66,15 +68,15 @@
 <body>
 	<h1>PROTOWEB<sup>&#127760;</sup></h1>
 
-	<ul>
-		<li id="b1"><a href="index.html">Home</a></li>
-		<li id="b2"><a href="prototype_about.html">About</a></li>
-		<li id="b3"><a href="prototype_upgrade.html">Socials</a></li>
-		<li id="b4"><a href="prototype_my_eshop.html">Eshop</a></li>
-	</ul>
+	<div id="nav">
+		<a id="b1" href="index.html">Home</a>
+		<a id="b2" href="prototype_about.html">About</a>
+		<a id="b3" href="prototype_upgrade.html">Socials</a>
+		<a id="b4" href="prototype_my_eshop.html">Webshop</a>
+	</div>
 
 	<p id="firstpara">Welcome to ProtoWeb&#128591;.<br>
-		This website is made by @<i>Roy_Sahil</i>.<br>
+		This website is made by <i><b>@Roy_Sahil</b></i>.<br>
 		This website is made for practice purpose only,<br>may become functional once completed.</p>
 	<hr>
 

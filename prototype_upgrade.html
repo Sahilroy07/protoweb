@@ -20,24 +20,26 @@
 		});
 	</script>
 <style>
-    ul{
-		list-style-type:none;
-		margin:0;
-		padding:0;
+    #nav{
 		overflow:hidden;
 		background-color:black;
 	}
-	li{
+	#nav a{
 		float:left;
-	}
-	li a{
-		display:block;
+		text-align: center;
 		color:whitesmoke;
 		padding:12px 15px;
+		text-decoration: none;
+		font-size: 17px;
 	}
-	li a:hover{
+	#nav a:hover{
 		background-color:grey;
-    }
+		color: black;
+	}
+	#nav a.active{
+		background-color: grey;
+		color: white;
+	}
     h3{
         background-color: black;
         color: white;
@@ -68,12 +70,12 @@
 <body>
     <h1>PROTOWEB<sup>&#127760;</sup></h1>
 
-    <ul>
-		<li id="b1"><a href="index.html">Home</a></li>
-		<li id="b2"><a href="prototype_about.html">About</a></li>
-        <li id="b3"><a href="prototype_upgrade.html">Socials</a></li>
-		<li id="b4"><a href="prototype_my_eshop.html">Eshop</a></li>
-	</ul>
+    <div id="nav">
+		<a id="b1" href="index.html">Home</a>
+		<a id="b2" href="prototype_about.html">About</a>
+		<a id="b3" href="prototype_upgrade.html">Socials</a>
+		<a id="b4" href="prototype_my_eshop.html">Webshop</a>
+	</div>
 
     <h3><b>My social life&#128270; -</b></h3>
 
@@ -82,7 +84,7 @@
 		so now I am going to introduce to that friend circle who kinda helped me 
 		during my project website making.</p>
 
-	<p id="secondpara"><b>ABSHIEK BHATTA</b></p>
+	<p id="secondpara"><b>ABHISHEK BHATTA</b></p>
 	<p id="thirdpara">We both were classmates since our nursery and we 
 		ended our school life together at the same section also. He is 
 		very supportive and funny he is very good listner and has a good 
@@ -92,7 +94,6 @@
 		otherwise I was searching for a govt. college. We both love computer and 
 		codes. He till this day is very close to me and I like to share my stories 
 		with him.<br>
-		<img src="bhatta.jpg" height="300" width="300">
 	</p>
 
 	<p id="fourthpara"><b>SAI NARAYAN PANDA</b></p>
@@ -104,7 +105,6 @@
 		not going to leave me in my future also. He is also caring and kind but rather than 
 		wasting braincells in books and codes he wastes it in god only knows where. But 
 		after all he is a valuable friend who doesn't need any verification from social media.<br>
-		<img src="sai.jpg" height="300" width="300">
 	</p>  
 </body>
 </html>

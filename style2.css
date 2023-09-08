@@ -18,6 +18,15 @@
     padding-left: 25px;
     padding-bottom: 25px;
 }
+h1 a{
+    color: white;
+    text-decoration: none;
+    transition: 1s ease;
+}
+h1 a:hover{
+    color: rgba(2, 159, 250, 0.897);
+    transition: .3s ease;
+}
 #main2 #nav2{
     overflow:hidden;
     background: linear-gradient(to top,rgba(0, 0, 0, 0.8)50% , rgba(0, 0, 0, 0.8)50%);
@@ -31,6 +40,7 @@
     font-size: 17px;
     font-family: sans-serif;
     font-weight: bold;
+    transition: 1s ease;
 }
 #nav2 a:hover{
     background:rgba(2, 159, 250, 0.897);

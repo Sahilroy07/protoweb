@@ -17,6 +17,15 @@
     padding-left: 25px;
     padding-bottom: 25px;
 }
+h1 a{
+    color: white;
+    text-decoration: none;
+    transition: 1s ease;
+}
+#main h1 a:hover{
+    color: rgba(2, 159, 250, 0.897);
+    transition: .3s ease;
+}
 #main #nav{
     overflow:hidden;
     background: linear-gradient(to top,rgba(0, 0, 0, 0.8)50% , rgba(0, 0, 0, 0.8)50%);
@@ -30,6 +39,7 @@
     font-size: 17px;
     font-family: sans-serif;
     font-weight: bold;
+    transition: 1s ease;
 }
 #nav a:hover{
     background:rgba(2, 159, 250, 0.897);
@@ -81,4 +91,26 @@
     display: none;
     text-align: center;
     font-family: 'Courier New';
+}
+#sixth{
+   border: 3px solid rgba(2, 159, 250, 0.897);
+   color: white;
+   background-color: black;
+   border-radius: 10px;
+   margin-left: 25px;
+   margin-right: 25px;
+   margin-top: 15px;
+   font-family: 'Courier New';
+   padding-inline-start: 10px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.8);
+}
+#sixth a{
+    text-decoration: none;
+    color: rgba(2, 159, 250, 0.897);
+    transition: .4s ease;
+}
+#sixth a:hover{
+    text-decoration: underline;
+    color: white;
+    transition: .3s ease;
 }
